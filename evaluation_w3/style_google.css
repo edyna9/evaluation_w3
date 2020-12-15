@@ -1,0 +1,108 @@
+header{
+display: flex;
+justify-content: flex-end;
+align-items: center;
+}
+#blue_button{
+    background-color: rgb(67, 154, 247);
+    padding: 10px;
+    
+}
+#blue_button a{
+    color: white;
+
+}
+a{
+    font-family: arial,sans-serif;
+    color: gray;
+    text-decoration: none;
+    font-size: 25px;
+    padding-right: 10px; 
+    padding-left:  10px; 
+}
+#central_div{
+    height: 1470px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+img{
+    width: 1000px;
+}
+i{
+    font-size: 25px;
+}
+#block{
+    margin-top: 25px;
+    height:45px;
+    border:0.1px solid lightgrey;
+    width:580px;
+    font-size: medium;
+    outline: none;
+    border-radius: 30px;    
+}
+
+#block > i{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 12px;
+    margin-left: 10px;
+}
+
+#block > input{
+    margin-top: -20px;
+    margin-left: 30px;
+    width: 464px;
+    height: 30px;
+    font-size: medium;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    display: flex;
+    justify-content: cneter;
+    outline: none;
+}
+/*
+#barre_recherche{
+    border: solid rgb(233, 232, 232);
+    border-radius: 30%;
+    width: 50px;
+}
+*/
+
+#buttons_center_div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.gray_button{
+    background-color: rgb(214, 212, 212);
+    padding: 10px;
+    margin: 20px;
+}
+
+footer{
+    background-color: rgb(214, 212, 212) ;
+}
+footer div{
+    padding-top: 5px;
+    padding-right: 10px; 
+    padding-left:  10px; 
+    padding-bottom:  5px; 
+}
+#button_france{
+    padding-left: 20px;
+}
+#last_div{
+    display: flex;
+    justify-content: space-between;
+}
+#right_div{
+    display: flex;
+    justify-content: flex-start;
+}
+#left_div{
+    display: flex;
+    justify-content: flex-end;
+}
