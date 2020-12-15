@@ -1,7 +1,24 @@
+
+section{
+    /*display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content:space-between;*/
+    
+    
+
+    min-height:100vh; 
+	display:flex; 
+	flex-direction:column;
+}
 header{
 display: flex;
 justify-content: flex-end;
 align-items: center;
+height: 80px;
+}
+header div{
+    margin-right: 35px;
 }
 #blue_button{
     background-color: rgb(67, 154, 247);
@@ -21,69 +38,56 @@ a{
     padding-left:  10px; 
 }
 #central_div{
-    height: 1470px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    flex-grow:1;
 }
 img{
     width: 1000px;
 }
 i{
-    font-size: 25px;
-}
-#block{
-    margin-top: 25px;
-    height:45px;
-    border:0.1px solid lightgrey;
-    width:580px;
-    font-size: medium;
-    outline: none;
-    border-radius: 30px;    
+    font-size: 35px;
 }
 
-#block > i{
+#barre_recherche{   
     display: flex;
-    justify-content: flex-start;
+    flex-direction: row;
+    width: 800px;
+    height: 60px;
+    border-radius: 30px;
+    border: 1px solid rgb(218, 216, 216);
+    margin-top: 20px;
+    margin-bottom: 30px; 
     align-items: center;
-    margin-top: 12px;
-    margin-left: 10px;
-}
+    padding-left: 10px;
 
-#block > input{
-    margin-top: -20px;
-    margin-left: 30px;
-    width: 464px;
-    height: 30px;
-    font-size: medium;
-    font-family: 'Poppins', sans-serif;
+  }
+ #loupe{
+     font-size: 40px;
+ }
+ input {
     border: none;
-    display: flex;
-    justify-content: cneter;
-    outline: none;
-}
-/*
-#barre_recherche{
-    border: solid rgb(233, 232, 232);
-    border-radius: 30%;
-    width: 50px;
-}
-*/
-
+    width: 700px;
+    height: 40px;
+  }
+ 
 #buttons_center_div{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 .gray_button{
-    background-color: rgb(214, 212, 212);
+    background-color: rgb(245, 245, 245);
     padding: 10px;
     margin: 20px;
+    border-radius: 10px;
 }
 
 footer{
-    background-color: rgb(214, 212, 212) ;
+    background-color: rgb(245, 245, 245) ;
 }
 footer div{
     padding-top: 5px;
@@ -93,10 +97,12 @@ footer div{
 }
 #button_france{
     padding-left: 20px;
+    align-items: center;
 }
 #last_div{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 #right_div{
     display: flex;
